@@ -1,0 +1,61 @@
+/*-----header-----*/
+.center.aligned.container .ui.header{
+    letter-spacing: 5px;
+}
+.center.aligned.container a{
+    text-decoration: none;
+    color:#212121;
+    transition: margin 0.2s ;
+}
+/*-----logo-----*/
+.center.aligned.container a.contact_logo{
+    margin:auto 5px auto 5px;
+}
+.center.aligned.container a.contact_logo_hover{
+    margin:auto 15px auto 15px;
+}
+/*-----grid-----*/
+.grid .ten.wide.column{
+    margin-top:40px;
+}
+/*-----content-----
+.left.aligned.container .ui.header{
+    letter-spacing: 2px;
+}
+.left.aligned.container a{
+    text-decoration: none;
+    color:#616161;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+.left.aligned.container a:hover{
+color:#E57373;
+}
+.left.aligned.container .small.header{
+    margin:0;
+    color:#BDBDBD;
+    width:140px;
+    position:absolute;
+    left: 0;
+    top:5px;
+}
+.left.aligned.container .large.header{
+    text-transform: uppercase;
+    margin-left:160px;
+    margin-top:0;
+}
+div.li_item{
+    padding:0 !important; 
+    position:relative;
+    display: inline-block;
+    margin: 30px auto 30px auto;
+}
+@media screen and (max-width: 420px){
+.left.aligned.container .large.header{
+    margin-left:0;
+}
+.left.aligned.container .small.header{
+    position:static;
+}
+
+}
+*/

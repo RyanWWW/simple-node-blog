@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'gothic'; /*a name to be used later*/
+    src: url('../font/33535gillsansmt.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'code'; /*a name to be used later*/
+    src: url('../font/LACUI.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'link'; /*a name to be used later*/
+    src: url('../font/apexnewbookwebfont.ttf'); /*URL to font*/
+}
+/*----- post content -----*/
+/*-- post header --*/
+#markdownContainer .header{
+    font-family: 'gothic';
+    letter-spacing: 2px;
+    color:#212121;
+}
+#markdownContainer .large.header{
+    text-align: center;
+}
+
+
+/*-- post codeBlock --*/
+#markdownContainer pre{
+    border-left: solid 1.5px #33691E;
+    padding: 10px;
+    margin-left: 2em;
+}
+#markdownContainer code{
+    font-family: 'code';
+    letter-spacing: 0.5px;
+}
+
+/*-- post a --*/
+#markdownContainer a{
+    font-family: 'gothic';
+    text-decoration: none;
+    color:#9E9E9E;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+#markdownContainer a:hover{
+    color:#E57373;
+}
+
+/*-- post list --*/
+#markdownContainer .item{
+    font-family: 'gothic';
+    margin-left: 2em;
+    color: #8D6E63;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+
+/*-- post p --*/
+#markdownContainer p{
+    font-family: 'gothic';
+    font-size: 15px;
+    color:#616161;
+    letter-spacing: 0.5px;
+}
+
